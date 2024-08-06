@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+    /* margin-left: 150px; */
+    font-size: 20px;
+}
+
+.hamburger {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+.win {
+    display: flex;
+    /* gap: 50px; */
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blue-bg {
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+}
+
+.bg-none {
+    border: none;
+    font-size: 20px;
+    background: none;
+}
+
+.tom {
+    align-items: center;
+    gap: 20px;
+    display: flex;
+}
+
+
+.tom {
+    align-items: center;
+}
+
+.hero-section {
+    width: 500px;
+    height: 50px;
+    margin: 50px;
+}
+.svg {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+h1 {
+    color: black;
+    font-size: 43px;
+}
+.black {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 15px;
+}
+
+.main {
+    display: flex;
+    gap: 200px;
+}
+
+.img {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.blur {
+    backdrop-filter: blur(20px);
+    border: 1px rgb(220, 213, 213) solid;
+}
+
+.run {
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+}
+.bus {
+    width: 700px;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.first-div {
+    width: 400px;
+    height: 300px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 40px;
+}
+.second-div {
+    width: 400px;
+    height: 300px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 40px;
+}
+.third-div {
+    width: 400px;
+    height: 300px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.hen {
+    font-size: 30px;
+}
+
+.main-div {
+    display: flex;
+    gap: 50px;
+    margin: 70px;
+}
+
+.last-div {
+    display: flex;
+    gap: 50px;
+    margin: 70px;
+}
+.forth-div {
+    width: 400px;
+    height: 300px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 40px;
+}
+.fivth-div {
+    width: 400px;
+    height: 300px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 40px;
+}
+.sixth-div {
+    width: 400px;
+    height: 300px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 40px;
+}
+.follow-div {
+    display: flex;
+    align-items: center;
+}
+
+.lone {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+.joel {
+    display: flex;
+    gap: 100px;
+    margin-top:  150px;
+    margin-left: 150px;
+}
+.fish {
+    width: 450px;
+}
+
+.doll {
+    font-size: 20px;
+    color: grey;
+}
+.pan {
+    border: 1px grey solid;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.dog {
+    text-decoration: underline;
+    text-decoration-color: green;
+    
+}
+.fem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.son{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.girl {
+    font-size: 20px;
+}
+.meat {
+    width: 500px;
+    margin-left: 100px;
+}
+.fox {
+    color: gray;
+}
+.rat {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.word {
+    width: 1300px;
+    height: 90px;
+    display: flex;
+    gap: 150px;
+    padding-left: 100px;
+    padding-top: 30px;
+    border: 1px rgb(235, 232, 232) solid;
+    border-radius: 5px;
+    margin: 100px;
+    font-size: 20px;
+    text-align: center;
+}
+.fin {
+    border: 1px gray solid;
+    padding: 10px;
+    border-radius: 50%;
+}
+.don {
+    display: flex;
+    gap: 120px;
+    margin-left: 150px;
+    align-items: center;
+}
+.red {
+    width: 500px;
+}
+.hug {
+    background-color: #f3e5e3;
+background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e5460b' fill-opacity='0.09' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+    width: 1300px;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 100px;
+    margin: 100px;
+}
+.pork {
+    display: flex;
+    gap: 130px;
+    padding-left: 370px;
+    padding-top: 100px;
+    
+}
+
+.image {
+    position: absolute;
+     left: 0;
+    margin-top: -210px;
+    margin-left: 100px;
+}
+.fork {
+    position: absolute;
+    right: 0;
+    margin-right: 100px;
+    margin-top: -85px;
+}
+.falling {
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
+.from-far {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.package {
+    padding: 16px;
+    border-radius: 30px;
+    border: 1px gray solid;
+}
+.fool {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+.flow {
+    display: flex;
+}
+
+.next-page > img, .duck > img {
+    width: 600px;
+    height: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+    .tim, .tom {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .hero-section {
+        width: 80vw;
+    }
+
+    .main > div > img {
+        width: 400px;
+    }
+
+    .img {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .bus {
+        width: 80vw;
+    }
+
+    .main-div, .last-div {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .card {
+        width: 70vw;
+    }
+
+    .joel {
+        flex-direction: column;
+        margin-left: 30px;
+    }
+
+    .next-page > img, .duck > img, .don > div > img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .fish, .red {
+        width: 80vw;
+    }
+
+    .rat {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .meat {
+        width: 80vw;
+        margin-left: 30px;
+    }
+
+    .word {
+        flex-direction: column;
+        width: 85vw;
+        height: fit-content;
+        padding-left: 10px;
+        margin: 20px;
+        padding-bottom: 20px;
+    }
+
+    .don {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .hug {
+        width: 90vw;
+        margin: 20px;
+        height: fit-content;
+        margin-top: 150px;
+    }
+
+    .hug > h1 {
+        margin-top: 300px;
+    }
+
+    .pork {
+        flex-direction: column;
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+
+    .fork {
+        width: 150px;
+        margin-right: 10px;
+        margin-top: -125px;
+    }
+
+    .from-far {
+        flex-direction: column;
+        gap: 100px;
+        margin-left: 30px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        width: 80vw;
+    }
+
+    .fool {
+        gap: 50px;
+    }
+}
